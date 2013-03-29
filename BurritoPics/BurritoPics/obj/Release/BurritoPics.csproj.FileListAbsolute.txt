@@ -1,0 +1,5 @@
+I:\Docs\Documents\Repos\BurritoPics\BurritoPics\BurritoPics\bin\BurritoPics.dll
+I:\Docs\Documents\Repos\BurritoPics\BurritoPics\BurritoPics\bin\BurritoPics.pdb
+I:\Docs\Documents\Repos\BurritoPics\BurritoPics\BurritoPics\obj\Release\BurritoPics.csprojResolveAssemblyReference.cache
+I:\Docs\Documents\Repos\BurritoPics\BurritoPics\BurritoPics\obj\Release\BurritoPics.dll
+I:\Docs\Documents\Repos\BurritoPics\BurritoPics\BurritoPics\obj\Release\BurritoPics.pdb

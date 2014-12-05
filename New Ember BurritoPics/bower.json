@@ -1,0 +1,28 @@
+{
+  "name": "Burrito Pics",
+  "version": "2.0.0",
+  "authors": [
+    "Kris Komar <kkomar@scentsy.com>"
+  ],
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ember-data": "components/ember-data#canary",
+    "ember": "components/ember#canary",
+    "jquery": "~2.1.1"
+  },
+  "resolutions": {
+    "ember": "canary",
+    "ember-data": "canary",
+    "jquery": ">= 1.7.0 < 2.2.0"
+  }
+}

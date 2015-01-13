@@ -18,11 +18,11 @@
   "dependencies": {
     "ember-data": "components/ember-data#canary",
     "ember": "components/ember#canary",
-    "jquery": "~2.1.1"
+    "jquery": ">= 2.2.0"
   },
   "resolutions": {
     "ember": "canary",
     "ember-data": "canary",
-    "jquery": ">= 1.7.0 < 2.2.0"
+    "jquery": ">= 2.2.0"
   }
 }

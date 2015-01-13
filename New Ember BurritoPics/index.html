@@ -8,6 +8,22 @@
 
     </head>
     <body>
+
+      <script type="text/x-handlebars" data-template-name="burritopics">
+        <section id="burritoList">
+          <ul id="burritopic-list" class="BurritoPics1">
+            {{#each burritopic in burritopics}}
+            <li>
+              <a href="Images/Burritos/{{burritopic.src}}" target="_blank">
+                <img class="BurritoImage" src="Images/Burritos/{{burritopic.src}}" alt="{{burritopic.alt}}" />
+                <span class="BurritoTitle">{{burritopic.title}}</span>
+              </a>
+            </li>
+            {{/each}}
+          </ul>
+        </section>
+      </script>
+
         <header class="header">
             <div class="title">
                 <h1>
@@ -16,11 +32,11 @@
                     <img src="Images/arrowed1.gif" />
                 </h1>
                 <h2>
-                    <a id="HyperLink1" href="Default.aspx">Pics</a> | 
+                    <a id="HyperLink1" href="Default.aspx">Pics</a> |
                     <a id="HyperLink2" href="UnderConstruction.aspx">Order Burrito (Pic)</a> |
-                    <a id="HyperLink3" href="UnderConstruction.aspx">Register</a> | 
-                    <a id="HyperLink4" href="UnderConstruction.aspx">Submit Pic</a> | 
-                    <a id="HyperLink5" href="UnderConstruction.aspx">About Us</a> | 
+                    <a id="HyperLink3" href="UnderConstruction.aspx">Register</a> |
+                    <a id="HyperLink4" href="UnderConstruction.aspx">Submit Pic</a> |
+                    <a id="HyperLink5" href="UnderConstruction.aspx">About Us</a> |
                     <a id="HyperLink6" href="UnderConstruction.aspx">Contact Us</a>
                 </h2>
                 <img src="Images/divider_pulse.gif" />
@@ -38,24 +54,6 @@
                     {{outlet}}
                 </div>
             </div>
-        </script>
-
-        <script type="text/x-handlebars" data-template-name="burritopics">
-            <section id="burritoList">
-                <ul id="burritopic-list" class="BurritoPics1">
-                    {{#each thing in model}}
-                    {{thing.title}}
-                    {{/each}}
-                    {{#each burritopic in model}}
-                    <li>
-                        <a href="Images/Burritos/{{burritopic.src}}" target="_blank">
-                            <img class="BurritoImage" src="Images/Burritos/{{burritopic.src}}" alt="{{burritopic.alt}}" />
-                            <span class="BurritoTitle">{{burritopic.title}}</span>
-                        </a>
-                    </li>
-                    {{/each}}
-                </ul>
-            </section>
         </script>
 
         <div class="clear">

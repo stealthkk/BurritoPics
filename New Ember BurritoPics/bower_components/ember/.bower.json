@@ -1,18 +1,17 @@
 {
   "name": "ember",
   "main": [
-    "./ember.js"
+    "./ember.debug.js"
   ],
   "dependencies": {
-    "jquery": ">= 1.7.0 <= 2.1.0",
-    "handlebars": ">= 2.0.0 < 3.0.0"
+    "jquery": ">= 1.7.0 < 2.2.0"
   },
   "homepage": "https://github.com/components/ember",
-  "_release": "35f24ea456",
+  "_release": "ecbbeea33a",
   "_resolution": {
     "type": "branch",
     "branch": "canary",
-    "commit": "35f24ea456703ccd0b3ecbaaa9330a2d31d83e01"
+    "commit": "ecbbeea33a4d0fd0f4f0489d057f731ceffe79cf"
   },
   "_source": "git://github.com/components/ember.git",
   "_target": "canary",

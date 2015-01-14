@@ -15,7 +15,10 @@
     $(function () {
         $('.BurritoImage').each(function () {
             var numRand = getRandRange(1000, 5500);
-            $(this).show("blind", null, numRand);
+            $(this).show('blind', {
+              easing: 'easeOutCirc',
+              duration: numRand
+            });
         });
     });
 

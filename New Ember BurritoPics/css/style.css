@@ -1,7 +1,7 @@
 /* DEFAULTS
 ----------------------------------------------------------*/
 
-body   
+body
 {
     background: #00ff00;
     font-size: .80em;
@@ -36,7 +36,7 @@ p
 }
 
 
-/* HEADINGS   
+/* HEADINGS
 ----------------------------------------------------------*/
 
 h1, h2, h3, h4, h5, h6
@@ -77,7 +77,7 @@ h5, h6
     font-size: 1em;
 }
 
-/* this rule styles <h1> and <h2> tags that are the 
+/* this rule styles <h1> and <h2> tags that are the
 first child of the left and right table columns */
 .rightColumn > h1, .rightColumn > h2, .leftColumn > h1, .leftColumn > h2
 {
@@ -85,7 +85,7 @@ first child of the left and right table columns */
 }
 
 
-/* PRIMARY LAYOUT ELEMENTS   
+/* PRIMARY LAYOUT ELEMENTS
 ----------------------------------------------------------*/
 
 .page
@@ -144,7 +144,7 @@ first child of the left and right table columns */
 }
 
 
-/* TAB MENU   
+/* TAB MENU
 ----------------------------------------------------------*/
 
 div.hideSkiplink
@@ -192,7 +192,7 @@ div.menu ul li a:active
     text-decoration: none;
 }
 
-/* FORM ELEMENTS   
+/* FORM ELEMENTS
 ----------------------------------------------------------*/
 
 fieldset
@@ -202,7 +202,7 @@ fieldset
     border: 1px solid #ccc;
 }
 
-fieldset p 
+fieldset p
 {
     margin: 2px 12px 10px 10px;
 }
@@ -212,25 +212,25 @@ fieldset.login label, fieldset.register label, fieldset.changePassword label
     display: block;
 }
 
-fieldset label.inline 
+fieldset label.inline
 {
     display: inline;
 }
 
-legend 
+legend
 {
     font-size: 1.1em;
     font-weight: 600;
     padding: 2px 4px 8px 4px;
 }
 
-input.textEntry 
+input.textEntry
 {
     width: 320px;
     border: 1px solid #ccc;
 }
 
-input.passwordEntry 
+input.passwordEntry
 {
     width: 320px;
     border: 1px solid #ccc;
@@ -241,7 +241,7 @@ div.accountInfo
     width: 42%;
 }
 
-/* MISC  
+/* MISC
 ----------------------------------------------------------*/
 
 .clear
@@ -307,9 +307,34 @@ ul.BurritoPics1 {
 ul.BurritoPics1 li {
     padding: 10px;
     float: left;
+    max-width: 220px;
 }
 ul.BurritoPics1 li img {
     height: 167px;
     width: 220px;
     display: none;
+}
+
+.SingleBurrito img {
+  width: 100%;
+  height: auto;
+}
+
+.EmberTitle {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  width: auto;
+  height: auto;
+  overflow: show;
+  z-index: -1000;
+}
+
+.GoBackBurritos  {
+  cursor: pointer;
+}
+
+.GoBackBurritos :hover {
+  text-decoration: underline;
+  cursor: pointer;
 }

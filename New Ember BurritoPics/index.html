@@ -5,72 +5,108 @@
         <title>Burritopics.com!!!!1</title>
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://code.jquery.com/ui/1.10.4/themes/hot-sneaks/jquery-ui.css">
 
     </head>
-    <body>
+    <body id="ember-app">
+      <script type="text/x-handlebars" data-template-name="header">
+        <header class="header">
+          <div class="title">
+            <h1>
+              <img src="Images/arrowed.gif" />
+              BurritoPics.Com!!1
+              <img src="Images/arrowed1.gif" />
+            </h1>
+            <div class="EmberTitle">
+              <img src="Images/now-in-ember.png" alt="Now In Ember!" />
+            </div>
+            <h2>
+              {{#link-to 'index'}}Pics{{/link-to}} |
+              {{#link-to 'construction'}}Order Burrito (Pic){{/link-to}} |
+              {{#link-to 'construction'}}Register{{/link-to}} |
+              {{#link-to 'construction'}}Submit Pic{{/link-to}} |
+              {{#link-to 'construction'}}About Us{{/link-to}} |
+              {{#link-to 'construction'}}Contact Us{{/link-to}}
+            </h2>
+            <img src="Images/divider_pulse.gif" />
+            <h3>
+              We got pics of burritos!!
+            </h3>
+          </div>
+        </header>
+        <div class="clear">
+        </div>
+      </script>
 
-      <script type="text/x-handlebars" data-template-name="burritopics">
+    <script type="text/x-handlebars" data-template-name="footer">
+      <div class="clear">
+      </div>
+      <footer class="footer">
+        <img src="Images/dividerblue.gif" /><br /><br />
+        <img src="Images/counter-design.gif" title="Efficient stats" Alt="Efficient stats" border="0" />
+        <br />
+        <audio controls autoplay loop>
+          <source src="sound/mexican-hat-dance.mp3" type="audio/mpeg" />
+          Your browser does not support the audio element.
+        </audio>
+      </footer>
+      </script>
+
+      <script type="text/x-handlebars" data-template-name="index">
         <section id="burritoList">
+          <span>Pics are now clickable!!1</span>
           <ul id="burritopic-list" class="BurritoPics1">
-            {{#each burritopic in burritopics1}}
+            {{#each pic in model}}
             <li>
-              <a href="Images/Burritos/{{burritopic.src}}" target="_blank">
-                <img class="BurritoImage" src="Images/Burritos/{{burritopic.src}}" alt="{{burritopic.alt}}" />
-                <span class="BurritoTitle">{{burritopic.title}}</span>
-              </a>
+              {{#link-to 'pic' pic}}
+                <img class="BurritoImage" src="Images/Burritos/{{pic.src}}" alt="{{pic.alt}}" />
+                <span class="BurritoTitle">{{pic.title}}</span>
+              {{/link-to}}
             </li>
             {{/each}}
           </ul>
         </section>
       </script>
 
-        <header class="header">
-            <div class="title">
-                <h1>
-                    <img src="Images/arrowed.gif" />
-                    BurritoPics.Com!!1
-                    <img src="Images/arrowed1.gif" />
-                </h1>
-                <h2>
-                    <a id="HyperLink1" href="Default.aspx">Pics</a> |
-                    <a id="HyperLink2" href="UnderConstruction.aspx">Order Burrito (Pic)</a> |
-                    <a id="HyperLink3" href="UnderConstruction.aspx">Register</a> |
-                    <a id="HyperLink4" href="UnderConstruction.aspx">Submit Pic</a> |
-                    <a id="HyperLink5" href="UnderConstruction.aspx">About Us</a> |
-                    <a id="HyperLink6" href="UnderConstruction.aspx">Contact Us</a>
-                </h2>
-                <img src="Images/divider_pulse.gif" />
-                <h3>
-                    We got pics of burritos!!
-                </h3>
-            </div>
-        </header>
-        <div class="clear">
+      <script type="text/x-handlebars" data-template-name="pic">
+        <div class="SingleBurrito">
+          <div class="GoBackBurritos" {{action 'goToIndex' }}><span>&lt;&lt; All teh burritos</span></div><br />
+          <img src="Images/Burritos/{{model.src}}" alt="{{model.alt}}" />
         </div>
-        BurritoPics.com is currently down because it is being converted into ember.js!<br />See you soon!
-        <script type="text/x-handlebars">
-            <div class="page">
-                <div class="main">
-                    {{outlet}}
-                </div>
+      </script>
+
+      <script type="text/x-handlebars" data-template-name="construction">
+        <h2>
+          <img src="Images/construction/CoColosseumField5490slunderconstruction.gif" alt="Under construction"/>
+          This page is under construction
+          <img src="Images/construction/CoCollegeParkCampus2836construction.gif" alt="Under construction" />
+        </h2>
+        <h3>Please come back soon!</h3>
+        <p>
+          <img src="Images/construction/fanthom_2000imagesunder_construction.gif" /><br />
+          <img src="Images/construction/mimidohttcimagesunder-construction-header.ani.10.gif" /><br />
+          <img src="Images/construction/CaCapeCanaveralStation2739IconsUnderConstruction.gif" /><br />
+          <img src="Images/construction/ththe300exhavenunderconstruction.gif" />
+        </p>
+      </script>
+
+      <script type="text/x-handlebars">
+        {{partial "header"}}
+
+        <div class="page">
+            <div class="main">
+              {{outlet}}
             </div>
-        </script>
-
-        <div class="clear">
         </div>
-        <footer class="footer">
-            <img src="Images/dividerblue.gif" /><br /><br />
-            <!-- hitwebcounter Code START -->
-            <a href="http://www.hitwebcounter.com/" target="_blank">
-                <img src="http://hitwebcounter.com/counter/counter.php?page=416230&style=0025&nbdigits=6&type=page&initCount=0" title="Blogger Counters" Alt="Blogger Counters"   border="0" >
-            </a>
-            <embed src="/midis/f10.mid" border="0" width="320" height="25" autostart="true" autoplay="true" loop="true" volume="100%">
-        </footer>
 
-        <script src="bower_components/jquery/dist/jquery.js"></script>
-        <script src="bower_components/handlebars/handlebars.js"></script>
-        <script src="bower_components/ember/ember.js"></script>
-        <script src="bower_components/ember-data/ember-data.js"></script>
+        {{partial "footer"}}
+      </script>
+
+        <script src="https://code.jquery.com/jquery-2.1.3.js"></script>
+        <script src="https://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.js"></script>
+        <script src="http://builds.emberjs.com/canary/ember.debug.js"></script>
+        <script src="http://builds.emberjs.com/canary/ember-data.js"></script>
         <script src="js/app.js"></script>
         <script src="js/models/burritopic.js"></script>
         <script src="js/router.js"></script>

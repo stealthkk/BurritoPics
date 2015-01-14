@@ -23,7 +23,6 @@ App.PicController = Ember.Controller.extend({
   actions: {
     goToIndex: function() {
       this.transitionTo('index');
-      $('.BurritoImage').css('display', 'list-item');
       return false;
     }
   }

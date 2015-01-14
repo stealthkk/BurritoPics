@@ -12,7 +12,9 @@
         }
     }
 
-    $(function () {
+    $(document).ready(function(){
+        $('.BurritoImage').hide();
+
         $('.BurritoImage').each(function () {
             var numRand = getRandRange(1000, 5500);
             $(this).show('blind', {

@@ -14,16 +14,3 @@ App.PicRoute = Ember.Route.extend({
     return pic;
   }
 });
-
-App.IndexController = Ember.Controller.extend({
-
-});
-
-App.PicController = Ember.Controller.extend({
-  actions: {
-    goToIndex: function() {
-      this.transitionTo('index');
-      return false;
-    }
-  }
-});

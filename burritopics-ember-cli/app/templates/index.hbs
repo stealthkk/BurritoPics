@@ -1,0 +1,13 @@
+<section id="burritoList">
+    <span>Pics are now clickable!!1</span>
+    <ul id="burritopic-list" class="BurritoPics1">
+        {{#each pic in model}}
+        <li>
+            {{#link-to 'pic' pic}}
+            <img class="BurritoImage" src="Images/Burritos/{{pic.src}}" alt="{{pic.alt}}" />
+            <span class="BurritoTitle">{{pic.title}}</span>
+            {{/link-to}}
+        </li>
+        {{/each}}
+    </ul>
+</section>

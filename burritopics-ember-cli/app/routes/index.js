@@ -1,10 +1,8 @@
-import Ember from "ember";
+import Ember from 'ember';
 
-var IndexRoute = Ember.Route.extend({
-  model: function() {
+export default Ember.Route.extend({
+	model: function() {
     var pics = this.store.find('burritopic');
     return pics;
   }
 });
-
-export default IndexRoute;

@@ -8,6 +8,7 @@ var Router = Ember.Router.extend({
 Router.map(function() {
     this.route('pic', { path: '/pic/:id'});
     this.route('construction', { path: '/construction' });
+    //this.route('accordion');
 });
 
 export default Router;

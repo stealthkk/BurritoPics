@@ -1,4 +1,0 @@
-<div class="SingleBurrito">
-    <div class="GoBackBurritos" {{action 'goToIndex' }}><span>&lt;&lt; All teh burritos</span></div><br />
-    <img src="Images/Burritos/{{model.src}}" alt="{{model.alt}}" />
-</div>

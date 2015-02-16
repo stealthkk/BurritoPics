@@ -5,4 +5,5 @@ export default Ember.Route.extend({
     var pics = this.store.find('burritopic');
     return pics;
   }
+  
 });

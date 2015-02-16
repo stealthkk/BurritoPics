@@ -1,107 +1,108 @@
 module.exports = function(app) {
   var express = require('express');
   var burritopicsRouter = express.Router();
-
-  burritopicsRouter.get('/', function(req, res) {
-    res.send({
-      'burritopics': [
+  var allPics = [
     {
         id: 1,
-        src: 'burrito1.jpeg',
+        src: 'assets/images/burritos/burrito1.jpeg',
         alt: 'A burrito!!1',
         title: 'A burrito!!1'
     },
     {
         id: 2,
-        src: 'burrito2.jpeg',
+        src: 'assets/images/burritos/burrito2.jpeg',
         alt: 'A burrito!!1',
         title: 'A burrito!!1'
     },
     {
         id: 3,
-        src: 'burrito3.jpeg',
+        src: 'assets/images/burritos/burrito3.jpeg',
         alt: 'A burrito!!1',
         title: 'A burrito!!1'
     },
     {
         id: 4,
-        src: 'burrito4.jpeg',
+        src: 'assets/images/burritos/burrito4.jpeg',
         alt: 'A burrito!!1',
         title: 'A burrito!!1'
     },
     {
         id: 5,
-        src: 'burrito5.jpeg',
+        src: 'assets/images/burritos/burrito5.jpeg',
         alt: 'A burrito!!1',
         title: 'A burrito!!1'
     },
     {
         id: 6,
-        src: 'burrito6.jpeg',
+        src: 'assets/images/burritos/burrito6.jpeg',
         alt: 'A burrito!!1',
         title: 'A burrito!!1'
     },
     {
         id: 7,
-        src: 'burrito7.jpeg',
+        src: 'assets/images/burritos/burrito7.jpeg',
         alt: 'A burrito!!1',
         title: 'A burrito!!1'
     },
     {
         id: 8,
-        src: 'burrito8.jpeg',
+        src: 'assets/images/burritos/burrito8.jpeg',
         alt: 'A burrito!!1',
         title: 'A burrito!!1'
     },
     {
         id: 9,
-        src: 'burrito9.jpeg',
+        src: 'assets/images/burritos/burrito9.jpeg',
         alt: 'A burrito!!1',
         title: 'A burrito!!1'
     },
     {
         id: 10,
-        src: 'burrito10.jpeg',
+        src: 'assets/images/burritos/burrito10.jpeg',
         alt: 'A burrito!!1',
         title: 'A burrito!!1'
     },
     {
         id: 11,
-        src: 'burrito11.jpeg',
+        src: 'assets/images/burritos/burrito11.jpeg',
         alt: 'A burrito!!1',
         title: 'A burrito!!1'
     },
     {
         id: 12,
-        src: 'burrito12.jpeg',
+        src: 'assets/images/burritos/burrito12.jpeg',
         alt: 'A burrito!!1',
         title: 'A burrito!!1'
     },
     {
         id: 13,
-        src: 'burrito13.jpeg',
+        src: 'assets/images/burritos/burrito13.jpeg',
         alt: 'A burrito!!1',
         title: 'A burrito!!1'
     },
     {
         id: 14,
-        src: 'burrito14.jpeg',
+        src: 'assets/images/burritos/burrito14.jpeg',
         alt: 'A burrito!!1',
         title: 'A burrito!!1'
     },
     {
         id: 15,
-        src: 'burrito15.jpeg',
+        src: 'assets/images/burritos/burrito15.jpeg',
         alt: 'A burrito!!1',
         title: 'A burrito!!1'
     },
     {
         id: 16,
-        src: 'burrito16.jpeg',
+        src: 'assets/images/burritos/burrito16.jpeg',
         alt: 'A burrito!!1',
         title: 'A burrito!!1'
     }
-      ]
+      ];
+
+  burritopicsRouter.get('/', function(req, res) {
+    res.send({
+      'burritopics': allPics
     });
   });
 
@@ -112,16 +113,19 @@ module.exports = function(app) {
   burritopicsRouter.get('/:id', function(req, res) {
     res.send({
       'burritopics': {
-        id: req.params.id
+        id: req.params.id,
+        src: 'assets/images/burritos/burrito1.jpeg',
+        alt: 'A burrito!!1',
+        title: 'A burrito!!1'
       }
     });
   });
 
   burritopicsRouter.put('/:id', function(req, res) {
     res.send({
-      'burritopics': {
+      'burritopics': allPics /*{
         id: req.params.id
-      }
+      }*/
     });
   });
 

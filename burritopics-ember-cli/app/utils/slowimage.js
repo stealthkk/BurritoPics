@@ -1,4 +1,6 @@
-export default function getRandRange (low, high) {
+export default {
+    getRandRange: function (low, high) {
+
         var adjustedHigh = (parseFloat(high) - parseFloat(low)) + 1;
         var numRand = Math.floor(Math.random()*adjustedHigh) + parseFloat(low);
 
@@ -8,3 +10,4 @@ export default function getRandRange (low, high) {
             return 0;
         }
     }
+};

@@ -1,0 +1,342 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ad",
+				"adapter"
+			],
+			[
+				"get",
+				"getRandRange"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 167.0,
+		"selected_items":
+		[
+			[
+				"omnishar",
+				"OmniSharpSublime: Show Info Panel"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 153.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/Kris/Documents/repos/BurritoPics"
+	],
+	"file_history":
+	[
+		"/Users/Kris/Documents/repos/stash/main/Profile/Tokenizer/ChaseTokenizer/Workers/TokenProcessor.cs",
+		"/Users/Kris/Documents/repos/stash/main/Scentsy4.sublime-project",
+		"/Users/Kris/Library/Application Support/Sublime Text 3/Packages/User/JSON.sublime-settings",
+		"/Users/Kris/Documents/repos/stash/main/Common/Libraries/NetSteps.Objects/Business/OrderCustomer.cs",
+		"/Users/Kris/Documents/repos/stash/main/Common/Libraries/NetSteps.Objects/Business/Order.cs",
+		"/Users/Kris/Documents/repos/stash/main/Presentation/PWS/Scentsy/Controllers/CheckoutController.cs",
+		"/Users/Kris/Documents/repos/stash/main/Common/Libraries/NetSteps.Objects/Business/Validations.cs",
+		"/Users/Kris/Documents/repos/stash/main/Presentation/Workstation/package.json",
+		"/Users/Kris/Library/Application Support/Sublime Text 3/Packages/User/OmniSharpSublime.sublime-settings",
+		"/Users/Kris/Documents/repos/stash/main/Database/Deployment Scripts/Scripts/Current/0350 - ScentsyCore - COM-1417 - uspFindTokenProspect.sql",
+		"/Users/Kris/Documents/repos/stash/main/Presentation/PWS/Velata/web.config",
+		"/Users/Kris/Documents/repos/stash/main/Presentation/PWS/Velata/Web.BASE.config",
+		"/Users/Kris/Documents/repos/stash/main/Presentation/PWS/Scentsy/web.config",
+		"/Users/Kris/Documents/repos/stash/main/Presentation/Workstation/Web.config",
+		"/Users/Kris/Documents/repos/stash/main/Application/Ecommerce/Services/EcommerceService.cs",
+		"/Users/Kris/Documents/repos/stash/main/Presentation/PWS/Scentsy/Web.BASE.config",
+		"/Users/Kris/Documents/repos/stash/main/Presentation/PWS/Scentsy-cli/bower.json",
+		"/Users/Kris/Documents/repos/stash/main/Presentation/PWS/Scentsy-cli/package.json",
+		"/Users/Kris/Documents/repos/stash/main/Presentation/PWS/Scentsy/bower.json",
+		"/Users/Kris/Documents/repos/stash/main/Presentation/PWS/Scentsy/package.json",
+		"/Users/Kris/Documents/repos/stash/main/Scentsy4.sln",
+		"/Users/Kris/Documents/repos/stash/main/Presentation/Workstation/node_modules/grunt-cli/bin/grunt",
+		"/Users/Kris/Documents/repos/stash/main/Presentation/Workstation/Presentation.Workstation.csproj",
+		"/Users/Kris/Documents/repos/stash/main/dist/PWS_Velata/web.config",
+		"/Users/Kris/Documents/repos/stash/main/Presentation/Workstation/bin/Scentsy.Presentation.Workstation.dll.config",
+		"/Users/Kris/Documents/repos/stash/main/Presentation/PWS/Velata/obj/Debug/Velata.csproj.App.config",
+		"/Users/Kris/Documents/repos/stash/main/Presentation/PWS/Velata/bin/web.STAGING.config",
+		"/Users/Kris/Documents/repos/stash/main/Presentation/PWS/Velata/bin/web.QA.config",
+		"/Users/Kris/Documents/repos/stash/main/Presentation/PWS/Velata/bin/web.MAIN.config",
+		"/Users/Kris/Documents/repos/stash/main/Presentation/PWS/Velata/bin/web.LIVE.config",
+		"/Users/Kris/Documents/repos/stash/main/Presentation/PWS/Velata/bin/web.BVT.config",
+		"/Users/Kris/Documents/repos/stash/main/Presentation/PWS/Scentsy/obj/Debug/Scentsy.csproj.App.config",
+		"/Users/Kris/Documents/repos/stash/main/Presentation/PWS/Scentsy/bin/web.MAIN.config",
+		"/Users/Kris/Documents/repos/stash/main/Presentation/obj/Debug/Scentsy.Presentation.Workstation/Presentation.Workstation.csproj.App.config",
+		"/Users/Kris/Documents/repos/stash/main/dist/PWS_Velata/web.STAGING.config",
+		"/Users/Kris/Documents/repos/stash/main/dist/PWS_Velata/web.QA.config",
+		"/Users/Kris/Documents/repos/stash/main/dist/PWS_Velata/web.LIVE.config",
+		"/Users/Kris/Documents/repos/stash/main/dist/PWS_Velata/web.BVT.config",
+		"/Users/Kris/Documents/repos/stash/main/Presentation/Workstation/Controllers/OrderEntryController.cs",
+		"/Users/Kris/Documents/repos/stash/main/Presentation/PWS/Scentsy/Views/Static/Contact.cshtml",
+		"/Users/Kris/Documents/repos/stash/main/Presentation/PWS/Scentsy/Views/Shared/_DistributorBio.cshtml",
+		"/Users/Kris/Documents/repos/stash/main/Common/Libraries/NetSteps.Objects/Business/Payments.cs",
+		"/Users/Kris/Documents/WindowsPowerShell/InstallScentsyDevSoftware.ps1",
+		"/Users/Kris/Documents/repos/stash/main/Common/Libraries/NetSteps.Objects/Business/RestrictedPhrase.cs",
+		"/Users/Kris/Documents/repos/stash/main/Common/Libraries/NetSteps.Objects/RestrictedPhrases.cs",
+		"/Users/Kris/Documents/repos/stash/main/Common/Libraries/NetSteps.Objects/Data/RestrictedPhrasesAdapter.cs",
+		"/Users/Kris/Documents/repos/stash/main/Common/Libraries/NetSteps.Objects/Business/Interface/IRestrictedPhrase.cs",
+		"/Users/Kris/Documents/repos/stash/main/Presentation/PWS/Scentsy/Web.STAGING.config",
+		"/Users/Kris/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/Kris/Documents/repos/stash/main/Presentation/PWS/Scentsy/Scentsy.csproj",
+		"/Users/Kris/Documents/repos/stash/main/Presentation/PWS/Scentsy/robots.txt",
+		"/Users/Kris/Documents/repos/stash/main/Presentation/PWS/Scentsy/readme.txt",
+		"/Users/Kris/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/Kris/Library/Application Support/Sublime Text 3/Packages/User/Plain text.sublime-settings",
+		"/Users/Kris/Documents/repos/stash/main/Presentation/PWS/Scentsy-cli/app/index.html",
+		"/Users/Kris/Documents/repos/stash/main/Presentation/PWS/Scentsy-cli/app/app.js",
+		"/Users/Kris/Documents/repos/BurritoPics/burritopics-ember-cli/server/mocks/burritopics.js",
+		"/Users/Kris/Documents/repos/BurritoPics/burritopics-ember-cli/Brocfile.js",
+		"/Users/Kris/Documents/repos/BurritoPics/burritopics-ember-cli/app/adapters/application.js",
+		"/Users/Kris/Documents/repos/BurritoPics/burritopics-ember-cli/app/models/burritopic.js",
+		"/Users/Kris/Documents/repos/BurritoPics/burritopics-ember-cli/app/index.html",
+		"/Users/Kris/Documents/repos/BurritoPics/burritopics-ember-cli/app/router.js",
+		"/Users/Kris/Documents/repos/BurritoPics/burritopics-ember-cli/app/routes/index.js",
+		"/Users/Kris/Documents/repos/BurritoPics/burritopics-ember-cli/app/routes/application.js",
+		"/Users/Kris/Documents/repos/BurritoPics/burritopics-ember-cli/vendor/slowimage.js",
+		"/Users/Kris/Documents/repos/BurritoPics/burritopics-ember-cli/config/environment.js",
+		"/Users/Kris/Documents/repos/BurritoPics/burritopics-ember-cli/app/controllers/application.js",
+		"/Users/Kris/Documents/repos/BurritoPics/burritopics-ember-cli/app/controllers/index.js",
+		"/Users/Kris/Documents/repos/BurritoPics/burritopics-ember-cli/.jshintrc",
+		"/Users/Kris/Documents/repos/BurritoPics/burritopics-ember-cli/bower.json",
+		"/Users/Kris/Documents/repos/BurritoPics/burritopics-ember-cli/app/controllers/pic.js",
+		"/Users/Kris/Documents/repos/BurritoPics/burritopics-ember-cli/app/templates/pic.hbs",
+		"/Users/Kris/Documents/repos/BurritoPics/burritopics-ember-cli/vendor/slow-image.js",
+		"/Users/Kris/Documents/repos/BurritoPics/burritopics-ember-cli/app/templates/header.hbs",
+		"/Users/Kris/Documents/repos/BurritoPics/burritopics-ember-cli/app/templates/footer.hbs",
+		"/Users/Kris/Documents/repos/BurritoPics/burritopics-ember-cli/app/templates/construction.hbs",
+		"/Users/Kris/Documents/repos/BurritoPics/burritopics-ember-cli/app/templates/index.hbs",
+		"/Users/Kris/Documents/repos/BurritoPics/burritopics-ember-cli/app/templates/index.hbs.bak",
+		"/Users/Kris/Documents/repos/BurritoPics/test/junk/config/environment.js",
+		"/Users/Kris/Documents/repos/BurritoPics/test/junk/app/index.html",
+		"/Users/Kris/Documents/repos/BurritoPics/burritopics-ember-cli/app/templates/pic.hbs.bak",
+		"/Users/Kris/Documents/repos/BurritoPics/burritopics-ember-cli/app/routes/pic.js",
+		"/Users/Kris/Downloads/burritopics.sublime-project",
+		"/Users/Kris/Documents/repos/BurritoPics/burritopics-ember-cli/dist/assets/burritopics-ember-cli.css",
+		"/Users/Kris/Documents/repos/BurritoPics/burritopics-ember-cli/app/styles/app.css",
+		"/Users/Kris/Documents/repos/BurritoPics/burritopics-ember-cli/dist/assets/app.scss",
+		"/Users/Kris/Documents/repos/BurritoPics/burritopics-ember-cli/dist/assets/vendor.js",
+		"/Users/Kris/Documents/repos/BurritoPics/burritopics-ember-cli/app/views/.gitkeep",
+		"/Users/Kris/Documents/repos/BurritoPics/burritopics-ember-cli/.gitignore",
+		"/Users/Kris/Documents/repos/stash/corporate/source/WebSites/familyfoundationweb/Project/Nov2012Redesign/FamilyFoundation/FamilyFoundation/Web.STAGING.config",
+		"/Users/Kris/Documents/repos/BurritoPics/New Ember BurritoPics/js/router.js",
+		"/Users/Kris/Documents/repos/BurritoPics/New Ember BurritoPics/index.html",
+		"/Users/Kris/Documents/repos/BurritoPics/New Ember BurritoPics/bower.json",
+		"/Users/Kris/Downloads/ember training/trainingapp/app/index.html",
+		"/Users/Kris/Downloads/ember training/trainingapp/dist/index.html",
+		"/Users/Kris/Downloads/ember training/trainingapp/app/app.js",
+		"/Volumes/KrisTest/Web.config",
+		"/Users/Kris/Downloads/web.liveb.config",
+		"/Users/Kris/Documents/repos/stash/main/Presentation/PWS/emberScentsySandbox/app/serializers/multiple-product-category.js",
+		"/Users/Kris/Documents/repos/stash/main/Presentation/Workstation/Views/OrderEntry/People.cshtml",
+		"/Users/Kris/Documents/repos/stash/main/this is a test.txt",
+		"/Users/Kris/Downloads/temp/krisrepo/this is the beginnging."
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/Kris/Documents/repos/stash/main,*.csproj,*.sln",
+			"/Users/Kris/Documents/repos/stash/main",
+			"/Users/Kris/Documents/repos/stash/main,*.cs",
+			"/Users/Kris/Documents/repos/stash/main",
+			"<open files>",
+			"/Users/Kris/Documents/repos/stash/main/Presentation",
+			"/Users/Kris/Documents/repos/stash/main",
+			"/Users/Kris/Documents/repos/stash/main,*.cs,*.cshtml"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"save(",
+			"calculatetotals(",
+			"CalculateBalances(",
+			"calculatetotals(",
+			"calcaulatetotals(",
+			"calculatetotals(",
+			"calcuclatebalanaces(",
+			"node \"",
+			"node",
+			"CheckIfOrderCustomerIsDirty",
+			"dirty",
+			"public void CalculateTotals(",
+			"PopulateAllOrderItemsFromTopLevel",
+			"RecursivelyPopulateAllChildOrderItems",
+			"ValidationResult",
+			"ctor(",
+			"ctor",
+			"class EcommerceService",
+			"EcommerceService",
+			"Services.EcommerceService",
+			"Scentsy.Application.Ecommerce.Services.EcommerceService",
+			"^",
+			"{BED69588-0C5C-4F7C-A8EE-7C4E908DB405}",
+			"node_modules",
+			"<< HEAD",
+			"node_modules\\grunt-cli\\bin\\grunt",
+			"node \"node_modules\\grunt-cli\\bin\\grunt\"",
+			"node \"./node_modules/grunt-cli/bin/grunt\"",
+			"CheckIfOrderCustomerIsDirty",
+			"ember",
+			"contact-details",
+			"ayments(",
+			"ResetTotals(",
+			"calculatetotals(",
+			"UpdateTotalsFromOrderCustomers",
+			"CalculateTotals(",
+			"calculatetot",
+			"class Payments",
+			"restrictedphrase",
+			"SCENTSYRESTRICTEDPHRASE",
+			"restricted",
+			"src: '"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"src: 'assets/images/burritos/"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.variable_get":
+	{
+		"height": 0.0
+	},
+	"project": "BurritoPics.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"~/Documents/SublimeProjects/DevAutoInstall.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 221.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

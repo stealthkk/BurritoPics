@@ -15,11 +15,24 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "burritopics-ember-cli/public/.htaccess",
+			"settings":
+			{
+				"buffer_size": 28,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
 	"command_palette":
 	{
 		"height": 167.0,
+		"last_filter": "",
 		"selected_items":
 		[
 			[
@@ -56,10 +69,18 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/Kris/Documents/repos/BurritoPics"
+		"/Users/Kris/Documents/repos/BurritoPics",
+		"/Users/Kris/Documents/repos/BurritoPics/burritopics-ember-cli",
+		"/Users/Kris/Documents/repos/BurritoPics/burritopics-ember-cli/public",
+		"/Users/Kris/Documents/repos/BurritoPics/burritopics-ember-cli/server/mocks"
 	],
 	"file_history":
 	[
+		"/Users/Kris/Documents/repos/BurritoPics/burritopics-ember-cli/config/environment.js",
+		"/Users/Kris/Documents/repos/BurritoPics/burritopics-ember-cli/public/.htaccess",
+		"/Users/Kris/Documents/repos/BurritoPics/burritopics-ember-cli/app/index.html",
+		"/Users/Kris/Documents/repos/BurritoPics/burritopics-ember-cli/package.json",
+		"/Users/Kris/Documents/repos/BurritoPics/burritopics-ember-cli/.htaccess",
 		"/Users/Kris/Documents/repos/stash/main/Profile/Tokenizer/ChaseTokenizer/Workers/TokenProcessor.cs",
 		"/Users/Kris/Documents/repos/stash/main/Scentsy4.sublime-project",
 		"/Users/Kris/Library/Application Support/Sublime Text 3/Packages/User/JSON.sublime-settings",
@@ -120,12 +141,10 @@
 		"/Users/Kris/Documents/repos/BurritoPics/burritopics-ember-cli/Brocfile.js",
 		"/Users/Kris/Documents/repos/BurritoPics/burritopics-ember-cli/app/adapters/application.js",
 		"/Users/Kris/Documents/repos/BurritoPics/burritopics-ember-cli/app/models/burritopic.js",
-		"/Users/Kris/Documents/repos/BurritoPics/burritopics-ember-cli/app/index.html",
 		"/Users/Kris/Documents/repos/BurritoPics/burritopics-ember-cli/app/router.js",
 		"/Users/Kris/Documents/repos/BurritoPics/burritopics-ember-cli/app/routes/index.js",
 		"/Users/Kris/Documents/repos/BurritoPics/burritopics-ember-cli/app/routes/application.js",
 		"/Users/Kris/Documents/repos/BurritoPics/burritopics-ember-cli/vendor/slowimage.js",
-		"/Users/Kris/Documents/repos/BurritoPics/burritopics-ember-cli/config/environment.js",
 		"/Users/Kris/Documents/repos/BurritoPics/burritopics-ember-cli/app/controllers/application.js",
 		"/Users/Kris/Documents/repos/BurritoPics/burritopics-ember-cli/app/controllers/index.js",
 		"/Users/Kris/Documents/repos/BurritoPics/burritopics-ember-cli/.jshintrc",
@@ -248,8 +267,37 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "burritopics-ember-cli/public/.htaccess",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 28,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -292,6 +340,7 @@
 	{
 		"height": 0.0
 	},
+	"pinned_build_system": "",
 	"project": "BurritoPics.sublime-project",
 	"replace":
 	{
@@ -301,6 +350,7 @@
 	"select_file":
 	{
 		"height": 0.0,
+		"last_filter": "",
 		"selected_items":
 		[
 		],
@@ -309,11 +359,12 @@
 	"select_project":
 	{
 		"height": 500.0,
+		"last_filter": "",
 		"selected_items":
 		[
 			[
 				"",
-				"~/Documents/SublimeProjects/DevAutoInstall.sublime-project"
+				"~/Documents/repos/stash/main/Scentsy4.sublime-project"
 			]
 		],
 		"width": 380.0
@@ -321,6 +372,7 @@
 	"select_symbol":
 	{
 		"height": 0.0,
+		"last_filter": "",
 		"selected_items":
 		[
 		],

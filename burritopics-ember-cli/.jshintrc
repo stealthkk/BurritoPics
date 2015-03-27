@@ -2,8 +2,7 @@
   "predef": [
     "document",
     "window",
-    "-Promise",
-    "slowimage"
+    "-Promise"
   ],
   "browser": true,
   "boss": true,

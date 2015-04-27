@@ -5,9 +5,7 @@ var Router = Ember.Router.extend({
   location: config.locationType
 });
 
-Router.map(function() {
-    this.route('pic', { path: '/pic/:id'});
+export default Router.map(function() {
+	this.route('pic', { path: '/pic/:id'});
     this.route('construction', { path: '/construction' });
 });
-
-export default Router;

@@ -16,11 +16,27 @@
 	"buffers":
 	[
 		{
-			"file": "burritopics-ember-cli/public/.htaccess",
+			"file": "burritopics-ember-cli/app/templates/application.hbs",
 			"settings":
 			{
-				"buffer_size": 28,
-				"line_ending": "Windows"
+				"buffer_size": 122,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "burritopics-ember-cli/server/index.js",
+			"settings":
+			{
+				"buffer_size": 652,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "burritopics-ember-cli/app/index.html",
+			"settings":
+			{
+				"buffer_size": 655,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -71,15 +87,19 @@
 	[
 		"/Users/Kris/Documents/repos/BurritoPics",
 		"/Users/Kris/Documents/repos/BurritoPics/burritopics-ember-cli",
-		"/Users/Kris/Documents/repos/BurritoPics/burritopics-ember-cli/public",
+		"/Users/Kris/Documents/repos/BurritoPics/burritopics-ember-cli/app",
+		"/Users/Kris/Documents/repos/BurritoPics/burritopics-ember-cli/app/templates",
+		"/Users/Kris/Documents/repos/BurritoPics/burritopics-ember-cli/server",
 		"/Users/Kris/Documents/repos/BurritoPics/burritopics-ember-cli/server/mocks"
 	],
 	"file_history":
 	[
-		"/Users/Kris/Documents/repos/BurritoPics/burritopics-ember-cli/config/environment.js",
-		"/Users/Kris/Documents/repos/BurritoPics/burritopics-ember-cli/public/.htaccess",
-		"/Users/Kris/Documents/repos/BurritoPics/burritopics-ember-cli/app/index.html",
+		"/Users/Kris/Documents/repos/BurritoPics/burritopics-ember-cli/app/router.js",
 		"/Users/Kris/Documents/repos/BurritoPics/burritopics-ember-cli/package.json",
+		"/Users/Kris/Documents/repos/stash/main/Presentation/PWS/Scentsy-cli/Checkout/package.json",
+		"/Users/Kris/Documents/repos/BurritoPics/burritopics-ember-cli/public/.htaccess",
+		"/Users/Kris/Documents/repos/BurritoPics/burritopics-ember-cli/config/environment.js",
+		"/Users/Kris/Documents/repos/BurritoPics/burritopics-ember-cli/app/index.html",
 		"/Users/Kris/Documents/repos/BurritoPics/burritopics-ember-cli/.htaccess",
 		"/Users/Kris/Documents/repos/stash/main/Profile/Tokenizer/ChaseTokenizer/Workers/TokenProcessor.cs",
 		"/Users/Kris/Documents/repos/stash/main/Scentsy4.sublime-project",
@@ -141,7 +161,6 @@
 		"/Users/Kris/Documents/repos/BurritoPics/burritopics-ember-cli/Brocfile.js",
 		"/Users/Kris/Documents/repos/BurritoPics/burritopics-ember-cli/app/adapters/application.js",
 		"/Users/Kris/Documents/repos/BurritoPics/burritopics-ember-cli/app/models/burritopic.js",
-		"/Users/Kris/Documents/repos/BurritoPics/burritopics-ember-cli/app/router.js",
 		"/Users/Kris/Documents/repos/BurritoPics/burritopics-ember-cli/app/routes/index.js",
 		"/Users/Kris/Documents/repos/BurritoPics/burritopics-ember-cli/app/routes/application.js",
 		"/Users/Kris/Documents/repos/BurritoPics/burritopics-ember-cli/vendor/slowimage.js",
@@ -206,6 +225,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"\"\n",
 			"save(",
 			"calculatetotals(",
 			"CalculateBalances(",
@@ -267,35 +287,93 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "burritopics-ember-cli/public/.htaccess",
+					"file": "burritopics-ember-cli/app/templates/application.hbs",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 28,
+						"buffer_size": 122,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								122,
+								122
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/Handlebars/Handlebars.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "burritopics-ember-cli/server/index.js",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 652,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								545,
+								545
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "burritopics-ember-cli/app/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 655,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								150,
+								150
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -332,6 +410,10 @@
 		]
 	},
 	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 124.0
+	},
 	"output.find_results":
 	{
 		"height": 0.0
@@ -344,7 +426,7 @@
 	"project": "BurritoPics.sublime-project",
 	"replace":
 	{
-		"height": 64.0
+		"height": 102.0
 	},
 	"save_all_on_build": true,
 	"select_file":

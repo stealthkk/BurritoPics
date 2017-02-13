@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 
 namespace BurritoPics.Controllers
 {
@@ -13,18 +9,29 @@ namespace BurritoPics.Controllers
             return View();
         }
 
+        public IActionResult Order()
+        {
+            return View("UnderConstruction");
+        }
+
+        public IActionResult Register()
+        {
+            return View("UnderConstruction");
+        }
+
+        public IActionResult Submit()
+        {
+            return View("UnderConstruction");
+        }
+
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
-
-            return View();
+            return View("UnderConstruction");
         }
 
         public IActionResult Contact()
         {
-            ViewData["Message"] = "Your contact page.";
-
-            return View();
+            return View("UnderConstruction");
         }
 
         public IActionResult Error()

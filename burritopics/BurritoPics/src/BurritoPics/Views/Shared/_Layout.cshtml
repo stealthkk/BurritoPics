@@ -16,34 +16,51 @@
         <link rel="stylesheet" href="~/css/site.min.css" asp-append-version="true" />
     </environment>
 </head>
-<body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">BurritoPics</a>
+<body class="body-burrito">
+    <header class="header">
+        <div class="title">
+            <h1>
+                <img src="~/images/arrowed.gif">
+                BurritoPics.Com!!1
+                <img src="~/images/arrowed1.gif">
+            </h1>
+            <div class="EmberTitle">
+                <img src="~/images/now-in-dotnetcore.png" alt="Now In .net core!!1">
             </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="About">About</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="Contact">Contact</a></li>
-                </ul>
-            </div>
+            <h4>
+                @Html.ActionLink("Pics", "Index") |
+                @Html.ActionLink("Order Burrito (Pic)", "Order") |
+                @Html.ActionLink("Register", "Register") |
+                @Html.ActionLink("Submit Pic", "Submit") |
+                @Html.ActionLink("About Us", "About") |
+                @Html.ActionLink("Contact Us", "Contact")
+            </h4>
+            <img src="~/images/divider_pulse.gif">
+            <h3>
+                We got pics of burritos!!
+            </h3>
         </div>
+    </header>
+    <div class="clear">
     </div>
+
     <div class="container body-content">
         @RenderBody()
-        <hr />
-        <footer>
-            <p>&copy; 2017 - BurritoPics</p>
-        </footer>
     </div>
+
+    <div class="clear">
+    </div>
+    <footer class="footer">
+        <img src="~/images/dividerblue.gif" />
+        <br />
+        <br />
+        <img src="~/images/counter-design.gif" title="Efficient stats" alt="Efficient stats" border="0" />
+        <br />
+        <audio controls="" autoplay="" loop="">
+            <source src="~/sound/mexican-hat-dance.mp3" type="audio/mpeg" />
+            Your browser does not support the audio element.
+        </audio>
+    </footer>
 
     <environment names="Development">
         <script src="~/lib/jquery/dist/jquery.js"></script>

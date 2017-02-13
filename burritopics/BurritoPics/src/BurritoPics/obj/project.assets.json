@@ -7437,12 +7437,13 @@
     "C:\\Users\\kris\\.nuget\\packages\\": {}
   },
   "project": {
+    "version": "1.0.0",
     "restore": {
       "projectUniqueName": "Z:\\Documents\\git\\BurritoPics\\burritopics\\BurritoPics\\src\\BurritoPics\\BurritoPics.csproj",
       "projectName": "BurritoPics",
       "projectPath": "Z:\\Documents\\git\\BurritoPics\\burritopics\\BurritoPics\\src\\BurritoPics\\BurritoPics.csproj",
       "outputPath": "Z:\\Documents\\git\\BurritoPics\\burritopics\\BurritoPics\\src\\BurritoPics\\obj\\",
-      "outputType": "NETCore",
+      "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "net462"
       ],

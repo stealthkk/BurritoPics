@@ -11,6 +11,7 @@ using Microsoft.EntityFrameworkCore;
 using BurritoPicsDotNetCore.Models;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using BurritoPicsDotNetCore.Services;
+using Microsoft.AspNetCore.Mvc;
 
 namespace BurritoPicsDotNetCore
 {
@@ -50,7 +51,11 @@ namespace BurritoPicsDotNetCore
                 .AddEntityFrameworkStores<PicContext>()
                 .AddDefaultTokenProviders();
 
-            services.AddMvc();
+            services.AddMvc(options =>
+            {
+                options.SslPort = 44321;
+                options.Filters.Add(new RequireHttpsAttribute());
+            });
 
             // Add application services.
             services.AddTransient<IEmailSender, AuthMessageSender>();

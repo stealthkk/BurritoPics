@@ -4,3 +4,6 @@
 \\Mac\Home\Documents\git\BurritoPics\burritopics\new dot net core burritopics\BurritoPicsDotNetCore\BurritoPicsDotNetCore\bin\Debug\netcoreapp1.1\BurritoPicsDotNetCore.dll
 \\Mac\Home\Documents\git\BurritoPics\burritopics\new dot net core burritopics\BurritoPicsDotNetCore\BurritoPicsDotNetCore\obj\Debug\netcoreapp1.1\BurritoPicsDotNetCore.csprojResolveAssemblyReference.cache
 \\Mac\Home\Documents\git\BurritoPics\burritopics\new dot net core burritopics\BurritoPicsDotNetCore\BurritoPicsDotNetCore\obj\Debug\netcoreapp1.1\BurritoPicsDotNetCore.AssemblyInfo.cs
+\\Mac\Home\Documents\git\BurritoPics\burritopics\new dot net core burritopics\BurritoPicsDotNetCore\BurritoPicsDotNetCore\bin\Debug\netcoreapp1.1\BurritoPicsDotNetCore.pdb
+\\Mac\Home\Documents\git\BurritoPics\burritopics\new dot net core burritopics\BurritoPicsDotNetCore\BurritoPicsDotNetCore\obj\Debug\netcoreapp1.1\BurritoPicsDotNetCore.dll
+\\Mac\Home\Documents\git\BurritoPics\burritopics\new dot net core burritopics\BurritoPicsDotNetCore\BurritoPicsDotNetCore\obj\Debug\netcoreapp1.1\BurritoPicsDotNetCore.pdb

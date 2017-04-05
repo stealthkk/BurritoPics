@@ -4,10 +4,11 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using BurritoPicsDotNetCore.ViewModels;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 
 namespace BurritoPicsDotNetCore.Models
 {
-    public class PicContext : DbContext
+    public class PicContext : IdentityDbContext<ApplicationUser>
     {
         public PicContext (DbContextOptions<PicContext> options)
             : base(options)

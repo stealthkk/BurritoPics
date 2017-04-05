@@ -1,6 +1,9 @@
-﻿body {
-    padding-top: 50px;
+﻿.body-burrito{
     padding-bottom: 20px;
+    background-color: #00ff00;
+    font-family: Consolas;
+    font-size: medium;
+    text-align: center;
 }
 
 /* Wrapping element */
@@ -17,21 +20,40 @@ textarea {
     max-width: 280px;
 }
 
-/* Carousel */
-.carousel-caption p {
-    font-size: 20px;
-    line-height: 1.4;
+/* Burrito stuff
+--------------------------------*/
+
+.BurritoPics1 li {
+    padding: 10px;
+    float: left;
+    max-width: 220px;
+}
+.BurritoPics1 li img {
+    height: 167px;
+    width: 220px;
 }
 
-/* Make .svg files in the carousel display properly in older browsers */
-.carousel-inner .item img[src$=".svg"] {
-    width: 100%;
+.SingleBurrito img {
+  width: 100%;
+  height: auto;
 }
 
-/* Hide/rearrange for smaller screens */
-@media screen and (max-width: 767px) {
-    /* Hide captions */
-    .carousel-caption {
-        display: none;
-    }
+.EmberTitle {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: auto;
+  height: auto;
+  overflow: visible;
+  z-index: -1000;
 }
+
+.GoBackBurritos  {
+  cursor: pointer;
+}
+
+.GoBackBurritos :hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+

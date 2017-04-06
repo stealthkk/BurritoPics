@@ -9,15 +9,15 @@ namespace BurritoPicsDotNetCore.Controllers
             return View();
         }
 
-		public IActionResult About()
-		{
-			return View("UnderConstruction");
-		}
+        public IActionResult About()
+        {
+            return View("UnderConstruction");
+        }
 
-		public IActionResult Contact()
-		{
-			return View("UnderConstruction");
-		}
+        public IActionResult Contact()
+        {
+            return View("UnderConstruction");
+        }
 
 
         public IActionResult Error()

@@ -9,9 +9,10 @@ using BurritoPicsDotNetCore.ViewModels;
 namespace BurritoPicsDotNetCore.Migrations
 {
     [DbContext(typeof(PicContext))]
-    partial class PicContextModelSnapshot : ModelSnapshot
+    [Migration("20170407004540_addedbyteforimage")]
+    partial class addedbyteforimage
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
             modelBuilder
                 .HasAnnotation("ProductVersion", "1.1.1")
@@ -67,7 +68,7 @@ namespace BurritoPicsDotNetCore.Migrations
                     b.ToTable("AspNetUsers");
                 });
 
-            modelBuilder.Entity("BurritoPicsDotNetCore.Models.Pic", b =>
+            modelBuilder.Entity("BurritoPicsDotNetCore.ViewModels.Pic", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd();

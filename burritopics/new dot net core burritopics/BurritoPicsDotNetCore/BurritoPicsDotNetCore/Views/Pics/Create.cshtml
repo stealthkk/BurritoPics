@@ -1,4 +1,4 @@
-@model BurritoPicsDotNetCore.ViewModels.Pic
+@model BurritoPicsDotNetCore.ViewModels.PicViewModel
 
 @{
     ViewData["Title"] = "Create";
@@ -7,7 +7,7 @@
 
 <h2>Create</h2>
 
-<form asp-action="Create">
+<form asp-action="Create" enctype="multipart/form-data">
     <div class="form-horizontal">
         <h4>Pic</h4>
         <hr />
@@ -55,6 +55,13 @@
                 <span asp-validation-for="Type" class="text-danger"></span>
             </div>
         </div>
+        <div class="form-group">
+            <label class="col-md-2 control-label">File Upload</label>
+            <div class="col-md-10">
+                <input asp-for="Image" type="file" name="Image" multiple />
+
+            </div>
+         </div>
         <div class="form-group">
             <div class="col-md-offset-2 col-md-10">
                 <input type="submit" value="Create" class="btn btn-default" />

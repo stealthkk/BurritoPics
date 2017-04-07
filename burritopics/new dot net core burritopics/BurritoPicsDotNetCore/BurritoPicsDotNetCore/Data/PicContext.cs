@@ -15,6 +15,6 @@ namespace BurritoPicsDotNetCore.Models
         {
         }
 
-        public DbSet<BurritoPicsDotNetCore.ViewModels.Pic> Pic { get; set; }
+        public DbSet<BurritoPicsDotNetCore.Models.Pic> Pic { get; set; }
     }
 }

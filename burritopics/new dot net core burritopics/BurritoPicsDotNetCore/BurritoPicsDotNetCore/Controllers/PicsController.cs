@@ -7,6 +7,8 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using BurritoPicsDotNetCore.Models;
 using BurritoPicsDotNetCore.ViewModels;
+using Microsoft.AspNetCore.Http;
+using System.IO;
 
 namespace BurritoPicsDotNetCore.Controllers
 {
@@ -54,15 +56,32 @@ namespace BurritoPicsDotNetCore.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,FileName,DateSubmitted,DateApproved,Approved,Name,Type")] Pic pic)
+        public async Task<IActionResult> Create(PicViewModel picViewModel)
         {
             if (ModelState.IsValid)
             {
-                _context.Add(pic);
+
+                var pic = new Pic()
+                {
+                    Name = picViewModel.Name,
+                    DateSubmitted = picViewModel.DateApproved,
+                    DateApproved = picViewModel.DateApproved,
+                    Approved = false,
+                    FileName = picViewModel.Image.FileName,
+                    Type = PicType.Burrito
+                };
+
+                using (var memoryStream = new MemoryStream())
+                {
+                    await picViewModel.Image.CopyToAsync(memoryStream);
+                    pic.Image = memoryStream.ToArray();
+                }
+
+                    _context.Add(pic);
                 await _context.SaveChangesAsync();
                 return RedirectToAction("Index");
             }
-            return View(pic);
+            return View(picViewModel);
         }
 
         // GET: Pics/Edit/5

@@ -9,9 +9,10 @@ using BurritoPicsDotNetCore.ViewModels;
 namespace BurritoPicsDotNetCore.Migrations
 {
     [DbContext(typeof(PicContext))]
-    partial class PicContextModelSnapshot : ModelSnapshot
+    [Migration("20170407005728_addedviewmodel")]
+    partial class addedviewmodel
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
             modelBuilder
                 .HasAnnotation("ProductVersion", "1.1.1")

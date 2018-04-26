@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - BurritoPics</title>
+
+    <environment include="Development">
+        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+        <link rel="stylesheet" href="~/css/site.css" />
+    </environment>
+    <environment exclude="Development">
+        <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/4.0.0/css/bootstrap.min.css"
+              asp-fallback-href="~/lib/bootstrap/dist/css/bootstrap.min.css"
+              asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute" />
+        <link rel="stylesheet" href="~/css/site.min.css" asp-append-version="true" />
+    </environment>
+</head>
+<body class="body-burrito">
+    <header class="header">
+        <div class="title">
+            <h1>
+                <img src="~/images/arrowed.gif">
+                BurritoPics.Com!!1
+                <img src="~/images/arrowed1.gif">
+            </h1>
+            <div class="EmberTitle">
+                <img src="~/images/now-in-dotnetcore.png" alt="Now In .net core!!1">
+            </div>
+            <h4>
+                @Html.ActionLink("Pics", "Index", "Home") |
+                @Html.ActionLink("History (New!!1)", "History", "Home") |
+                @Html.ActionLink("Order Burrito (Pic)", "Order", "Home") |
+                @Html.ActionLink("Register", "Register", "Home") |
+                @Html.ActionLink("Submit Pic", "Submit", "Pics") |
+                @Html.ActionLink("About Us", "About", "Home") |
+                @Html.ActionLink("Contact Us", "Contact", "Home")
+            </h4>
+            <img src="~/images/divider_pulse.gif">
+        </div>
+    </header>
+    <div class="clear">
+    </div>
+
+    <div class="container body-content">
+        @RenderBody()
+    </div>
+
+    <div class="clear">
+    </div>
+    <footer class="footer">
+        <img src="~/images/dividerblue.gif" />
+        <br />
+        <br />
+        <img src="~/images/counter-design.gif" title="Efficient stats" alt="Efficient stats" border="0" />
+        <br />
+        <audio controls="" autoplay="" loop="">
+            <source src="~/sound/mexican-hat-dance.mp3" type="audio/mpeg" />
+            Your browser does not support the audio element.
+        </audio>
+    </footer>
+
+    <environment include="Development">
+        <script src="~/lib/jquery/dist/jquery.js"></script>
+        <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+        <script src="~/js/site.js" asp-append-version="true"></script>
+    </environment>
+    <environment exclude="Development">
+        <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-3.3.1.min.js"
+                asp-fallback-src="~/lib/jquery/dist/jquery.min.js"
+                asp-fallback-test="window.jQuery"
+                crossorigin="anonymous"
+                integrity="sha384-K+ctZQ+LL8q6tP7I94W+qzQsfRV2a+AfHIi9k8z8l9ggpc8X+Ytst4yBo/hH+8Fk">
+        </script>
+        <script src="https://ajax.aspnetcdn.com/ajax/bootstrap/4.0.0/bootstrap.min.js"
+                asp-fallback-src="~/lib/bootstrap/dist/js/bootstrap.min.js"
+                asp-fallback-test="window.jQuery && window.jQuery.fn && window.jQuery.fn.modal"
+                crossorigin="anonymous"
+                integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa">
+        </script>
+        <script src="~/js/site.min.js" asp-append-version="true"></script>
+    </environment>
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

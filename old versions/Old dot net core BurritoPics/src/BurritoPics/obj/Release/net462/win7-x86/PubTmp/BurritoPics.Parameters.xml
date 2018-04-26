@@ -1,6 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<parameters>
-  <parameter name="IIS Web Application Name" description="" value="burritopics" tags="IisApp">
-    <parameterEntry kind="ProviderPath" scope="IisApp" match="^Z:\\Documents\\git\\BurritoPics\\burritopics\\BurritoPics\\src\\BurritoPics\\obj\\Release\\net462\\win7-x86\\PubTmp\\Out\\$" />
-  </parameter>
-</parameters>

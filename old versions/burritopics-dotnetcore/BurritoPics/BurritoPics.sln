@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BurritoPics", "BurritoPics\BurritoPics.csproj", "{19F03C44-BE06-4E41-B3A9-5A15211330FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BurritoPics.Api", "BurritoPics.Api\BurritoPics.Api.csproj", "{FE2E0F2C-2358-4192-9632-9572FA76D637}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19F03C44-BE06-4E41-B3A9-5A15211330FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19F03C44-BE06-4E41-B3A9-5A15211330FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19F03C44-BE06-4E41-B3A9-5A15211330FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19F03C44-BE06-4E41-B3A9-5A15211330FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE2E0F2C-2358-4192-9632-9572FA76D637}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE2E0F2C-2358-4192-9632-9572FA76D637}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE2E0F2C-2358-4192-9632-9572FA76D637}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE2E0F2C-2358-4192-9632-9572FA76D637}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

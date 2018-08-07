@@ -1,19 +1,20 @@
 import React, { Component } from 'react';
+import ReactDOM from 'react-dom';
 //import logo from './logo.svg';
 import './App.css';
-import PicsPage from './PicsPage.js';
+import PicsPage from './pics-page.js';
+import Construction from './construction.js';
 
 class App extends Component {
   constructor(props) {
     super(props);
-    this.state = 
-    {
-      currPage: 'index'
+    this.state = {
+      someKey: 'someVal'
     };
   }
 
-  picsGo() {
-    return new PicsPage().render(document.getElementById('app-root'));
+  renderMainArea(dest) {
+    return ReactDOM.render(dest, document.getElementById('mainArea'));
   }
 
   render() {
@@ -22,40 +23,36 @@ class App extends Component {
         <header className="header">
         <div className="title">
             <h1>
-                <img src="~/images/arrowed.gif" />
+                <img src="images/arrowed.gif" alt="" />
                 BurritoPics.Com!!1
-                <img src="~/images/arrowed1.gif" />
+                <img src="images/arrowed1.gif" alt="" />
             </h1>
             <div className="EmberTitle">
-                <img src="~/images/now-in-dotnetcore.png" alt="Now In .net core!!1" />
+                <img src="images/now-in-ember.png" alt="Now In .net core!!1" />
             </div>
             <h4>
-              <a href="#" onClick={this.picsGo}>Pics</a> | 
-              <a href="#" onClick={this.picsGo}>History</a> | 
-              <a href="#" onClick={this.picsGo}>Order Burrito (Pic)</a> | 
-              <a href="#" onClick={this.picsGo}>Register</a> | 
-              <a href="#" onClick={this.picsGo}>Submit Pic</a> | 
-              <a href="#" onClick={this.picsGo}>About Us</a> | 
-              <a href="#" onClick={this.picsGo}>Contact Us</a>
+              <button onClick={() => this.renderMainArea(<PicsPage />)}>Pics</button> | 
+              <button onClick={() => this.renderMainArea(<Construction />)}>History</button> | 
+              <button onClick={() => this.renderMainArea(<Construction />)}>Order Burrito (Pic)</button> | 
+              <button onClick={() => this.renderMainArea(<Construction />)}>Register</button> | 
+              <button onClick={() => this.renderMainArea(<Construction />)}>Submit Pic</button> | 
+              <button onClick={() => this.renderMainArea(<Construction />)}>About Us</button> | 
+              <button onClick={() => this.renderMainArea(<Construction />)}>Contact Us</button>
             </h4>
-            <img src="~/images/divider_pulse.gif" />
+            <img src="images/divider_pulse.gif" alt="" />
         </div>
     </header>
-    <div className="clear">
-    </div>
-    <div className="container body-content" id="app-root">
-        {this.picsGo}
-    </div>
-    <div className="clear">
-    </div>
+    <div className="clear"></div>
+    <div className="container body-content" id="mainArea"></div>
+    <div className="clear"></div>
     <footer className="footer">
-        <img src="~/images/dividerblue.gif" />
+        <img src="images/dividerblue.gif" alt="" />
         <br />
         <br />
-        <img src="~/images/counter-design.gif" title="Efficient stats" alt="Efficient stats" border="0" />
+        <img src="images/counter-design.gif" title="Efficient stats" alt="Efficient stats" border="0" />
         <br />
-        <audio controls="" autoplay="" loop="">
-            <source src="~/sound/mexican-hat-dance.mp3" type="audio/mpeg" />
+        <audio controls="false" autoPlay="true" loop="true">
+            <source src="sound/mexican-hat-dance.mp3" type="audio/mpeg" />
             Your browser does not support the audio element.
         </audio>
     </footer>

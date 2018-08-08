@@ -17,9 +17,7 @@ class App extends Component {
         <header className="header">
           <Title />
         </header>
-        <div className="clear"></div>
         <div className="container body-content" id="mainArea"></div>
-        <div className="clear"></div>
         <Footer />
       </div>
     );

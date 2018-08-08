@@ -11,7 +11,7 @@ class Title extends Component {
                 <img src="images/arrowed1.gif" alt="" />
             </h1>
             <div className="tag-callout">
-                <img src="images/now-in-ember.png" alt="Now In Reacat.Js!!1" />
+                <img src="images/now-in-react.png" alt="Now In React.Js!!1" />
             </div>
             <Menu />
             <img src="images/divider_pulse.gif" alt="" />

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './App.scss';
+import './App.css';
 import Title from './title.js';
 import Footer from './footer.js';
 
@@ -9,6 +9,7 @@ class App extends Component {
     this.state = {
       someKey: 'someVal'
     };
+    
   }
 
   render() {

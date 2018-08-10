@@ -13,7 +13,7 @@ class Title extends Component {
             <div className="tag-callout">
                 <img src="images/now-in-react.png" alt="Now In React.Js!!1" />
             </div>
-            <Menu />
+            <Menu changePage={this.props.changePage} />
             <img src="images/divider_pulse.gif" alt="" />
         </div>
         );

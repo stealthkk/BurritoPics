@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import RandoQuote from './randoquote.js';
 
 class Construction extends Component {
     render() {
@@ -10,6 +11,8 @@ class Construction extends Component {
                 <img src="images/construction/CoCollegeParkCampus2836construction.gif" alt="Under construction" />
             </h2>
             <h3>Please come back soon!</h3>
+            <br />
+            <RandoQuote />
             <p>
                 <img src="images/construction/fanthom_2000imagesunder_construction.gif" alt="Under construction" />
                 <br />

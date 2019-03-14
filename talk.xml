@@ -1,4 +1,4 @@
 <Response>
-<Say voice="alice">Hi Devin. Thanks for being a person! herp derp derp ferp!</Say>
-<Play>https://www.soundboard.com/handler/DownLoadTrack.ashx?cliptitle=Never+Gonna+Give+You+Up-+Original&filename=mz/Mzg1ODMxNTIzMzg1ODM3_JzthsfvUY24.MP3</Play>
+<Say voice="alice">Hi Devin. Thanks for being a person! herp derp derp ferp! Here is an important message.</Say>
+<Play>https://raw.githubusercontent.com/stealthkk/BurritoPics/master/never.mp3</Play>
 </Response>

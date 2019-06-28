@@ -9,7 +9,7 @@ class Footer extends Component {
             <br />
             <img src="images/counter-design.gif" title="Efficient stats" alt="Efficient stats" border="0" />
             <br />
-            <audio controls="true" autoPlay="true" loop="true">
+            <audio controls={true} autoPlay={true} loop={true}>
                 <source src="sound/mexican-hat-dance.mp3" type="audio/mpeg" />
                 Your browser does not support the audio element.
             </audio>
